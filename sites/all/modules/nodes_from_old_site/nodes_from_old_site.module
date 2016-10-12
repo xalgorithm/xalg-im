@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the nodes-from-old-site feature.
+ */
+
+include_once 'nodes_from_old_site.features.inc';

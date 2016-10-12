@@ -1,0 +1,4 @@
+name = Swordfish Theme (Drupal 7.22)
+description = Installs a replica of the demo found on <a href="http://themeshark.com/preview">NeptuneThemes.com</a>
+version = VERSION
+core = 7.x

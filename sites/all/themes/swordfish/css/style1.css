@@ -1,0 +1,972 @@
+/* HTML
+--------------------------------------------------------------------------*/
+
+body {
+  color: #333333;
+  font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.0em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+a {
+  color: #2d9abd;
+  font-weight: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  padding-bottom: 1.0em;
+}
+
+/* HEADER
+--------------------------------------------------------------------------*/
+
+.header-wrapper {
+  height: 198px;
+  /*background: #4ca6d4;*/
+}
+
+hgroup {
+  float: left;
+  padding-top: 35px;
+}
+
+.site-logo {
+padding: 20px 20px 10px 20px;
+float: left;
+background: rgba(0,0,0,0.6);
+border-radius: 0px 0px 20px 20px;
+}
+.region-logo{
+  float: right;
+background: rgba(0,0,0,0.6);
+border-radius: 0px 0px 20px 20px;
+padding:10px;
+}
+#caption{
+  width:65%;
+  color:#FFF;
+  margin:0 auto;
+}
+h1.site-name a, h2.site-name a {
+  color: #333;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+h1.site-name, h2.site-name  {
+  line-height: 1.0em;
+}
+
+h1.site-name a:hover, h2.site-name a:hover {
+  text-decoration: none;
+}
+
+/* Page
+--------------------------------------------------------------------------*/
+#page {
+	background: #EDEDED url(../images/custom/cerebro-bg-forV.jpg) no-repeat top center;
+}
+
+/* SLIDESHOW
+--------------------------------------------------------------------------*/
+
+.slideshow-wrapper {
+  padding: 40px 0 40px 0;
+  /*background: #4ca6d4 url(../images/style1/slideshow-bg.png) top center repeat-y;	*/
+
+}
+
+.slideshow-wrapper h3 {
+  display: none;
+}
+
+.view-slideshow .views-field-field-slideshow-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.view-slideshow .views-field-field-slideshow-image img {
+  display: block;
+}
+
+.view-slideshow .views-field-title {
+  margin-bottom: 10px;
+  margin-left: 420px;
+  padding: 10px;
+  background: #222222;
+}
+
+.view-slideshow .views-field-title a {
+  color: #ffffff;
+  font-size: 3.5em;
+  line-height: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.view-slideshow .views-field-title a:hover {
+  text-decoration: none;
+}
+
+.view-slideshow .views-field-body {
+  margin-left: 420px;
+  padding: 10px 10px;
+  font-style: italic;
+  font-size: 1.0em;
+  color: #ffffff;
+}
+
+.view-slideshow .views-field-view-node {
+  margin-left: 420px;
+}
+
+.view-slideshow .views-field-view-node a {
+  display: inline-block;
+  background: #222222;
+  padding: 10px;
+  font-size: 1.0em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.view-slideshow .views-field-view-node a:hover {
+  background: #444444;
+  text-decoration: none;
+}
+
+.view-slideshow .skin-default {
+  position: relative;
+}
+
+.views-slideshow-controls-text-previous {
+  top: 50%;
+  left: -65px;
+  height: 62px;
+  width: 61px;
+  position: absolute;
+  color: #ffffff;
+  background-image: url(../images/style1/prev-next.png);
+  background-position: -122px;
+  background-repeat: no-repeat;
+  text-indent: -1000em;
+  z-index: 100;
+}
+
+.views-slideshow-controls-text-pause {
+  display: none;
+}
+
+
+.views-slideshow-controls-text-next {
+  top: 50%;
+  right: -65px;
+  height: 62px;
+  width: 61px;
+  position: absolute;
+  color: #ffffff;
+  background-image: url(../images/style1/prev-next.png);
+  background-position: -183px 0px;
+  background-repeat: no-repeat;
+  text-indent: -1000em;
+  z-index: 100;
+}
+
+.views-slideshow-controls-text-previous:hover {
+  background-position: 0px 0px;
+}
+
+.views-slideshow-controls-text-pause {
+  display: none;
+}
+
+
+.views-slideshow-controls-text-next:hover {
+  background-position: -61px 0px;
+}
+
+/* PREFACE
+--------------------------------------------------------------------------*/
+
+.preface-wrapper {
+  padding: 20px 0 20px 0;
+  /*background: #ffffff;*/
+   /* background: url(../images/custom/cerebro_mp_content-bg_tile.png) repeat-y center;*/
+}
+
+.preface-wrapper-inner {
+  padding: 20px 0 0 0;
+  background: #f9f9f9;
+  border-top: 3px dashed #dddddd;
+  border-bottom: 3px dashed #dddddd;
+  font-style: italic;
+  text-shadow: 1px 1px #ffffff;
+}
+
+.preface-wrapper h3 {
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #222222;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* MAIN CONTENT
+--------------------------------------------------------------------------*/
+
+.main-content-wrapper {
+  padding: 20px 0;
+  background: url(../images/custom/cerebro_mp_content-bg_tile.png) repeat-y center center;
+}
+
+/* SIDEBARS
+--------------------------------------------------------------------------*/
+
+.sidebar .block-inner {
+  margin-bottom: 20px;
+}
+
+.sidebar .block-inner h3 {
+  padding: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2em;
+  background: #222222;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 5px solid #028db6;
+}
+
+.sidebar .block-inner .content {
+  padding: 20px;
+  background: #f9f9f9;
+  font-style:italic;
+  text-shadow: 1px 1px #ffffff;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+
+/* POSTSCRIPT
+--------------------------------------------------------------------------*/
+
+.postscript-wrapper {
+  padding: 20px 0 0 0;
+  background: #f9f9f9;
+  border-top: 1px solid #eeeeee;
+  text-shadow: 1px 1px #ffffff;
+  font-style: italic;
+}
+
+.postscript-wrapper h3 {
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* FOOTER
+--------------------------------------------------------------------------*/
+
+.footer-wrapper {
+  padding: 20px 0;
+  background: #222222;
+  color: #ffffff;
+  border-top: 10px solid #028db6;
+  text-align: center;
+}
+
+/* LISTS
+--------------------------------------------------------------------------*/
+
+/* USER MENU
+--------------------------------------------------------------------------*/
+
+.user-menu-wrapper {
+  line-height: 30px;
+  padding: 5px 0;
+  background: #222222;
+  border-bottom: 5px solid #7ac2d5;
+}
+
+#user-menu ul.menu li a {
+  padding-right: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* NAV MENU
+--------------------------------------------------------------------------*/
+
+#nav-menu {
+  float: right;
+  padding-top: 35px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#nav-menu ul.menu li a {
+  display: block;
+  padding: 0 20px;
+  font-weight: normal;
+  margin-right: 10px;
+  line-height: 50px;
+  color: #ffffff;
+  background: url(../images/style1/dark-trans.png);
+}
+
+#nav-menu ul.menu li a.active {
+  color: #222222;
+  background: #ffea00
+}
+
+#nav-menu ul.menu li a.active:hover {
+  color: #ffffff;
+}
+
+#nav-menu ul.menu li a:hover {
+  background: #222222;
+  text-decoration: none;
+}
+
+/* Nav Menu Drop Down */
+
+#nav-menu ul.menu li ul {
+  position: absolute;
+  padding: 0;
+  margin: 0 0 0 0;
+  width: 200px;
+  left: -999em;
+  z-index: 100;
+  background: #222222;
+  border-top: 5px solid #ffffff;
+  border-right: 1px solid #333333;
+}
+
+#nav-menu ul.menu li:hover ul, #nav-menu ul.menu li.sfHover ul {
+  left: auto;
+}
+
+#nav-menu ul.menu li li a, #nav-menu ul.menu li li a.active {
+  width: 160px;
+  padding: 0 20px;
+  margin: 0;
+  color: #999999;
+  font-size: 1.0em;
+  border: 0;
+  background: #333333;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #444444;
+}
+
+#nav-menu ul.menu li li a.active span, #nav-menu ul.menu li li a span {
+  padding: 0;
+  color: #999999;
+  margin: 0;
+  background: 0;
+}
+
+#nav-menu ul.menu li li a:hover, #nav-menu ul.menu li li a.active:hover {
+  color: #ffffff;
+  background: #111111;
+  text-shadow: -1px -1px #000000;
+}
+
+#nav-menu ul.menu li ul ul {
+  margin: -40px 0 0 200px;
+}
+
+#nav-menu ul.menu li:hover ul ul, #nav-menu ul.menu li.sfHover ul ul, #nav-menu ul.menu li:hover ul ul ul, #nav-menu ul.menu li.sfHover ul ul ul, #nav-menu ul.menu li:hover ul ul ul ul, #nav-menu ul.menu li.sfHover ul ul ul ul {
+  left: -999em;
+}
+
+#nav-menu ul.menu li li:hover ul, #nav-menu ul.menu li li.sfHover ul, #nav-menu ul.menu li li li:hover ul, #nav-menu ul.menu li li li.sfHover ul, #nav-menu ul.menu li li li li:hover ul, #nav-menu ul.menu li li li li.sfHover ul {
+  left:auto;
+}
+
+#nav-menu ul.menu li li.expanded, #nav-menu ul.menu li li li.expanded  {
+  background: 0;
+}
+
+/* MAIN MENU
+--------------------------------------------------------------------------*/
+.myContWrapper {
+    background: url(../images/custom/cerebro_mp_content-bg_tile.png) repeat-y center -15px;
+}
+.main-menu-wrapper {
+  background: url(../images/custom/cerebro_mp_content-bg_top.png) no-repeat center -15px;
+  margin-top:-15px;
+}
+
+#main-menu {
+  margin-left: 0px;
+}
+
+#main-menu ul.menu li a {
+  display: block;
+  font-weight: normal;
+  margin-top: -7px;
+  color: #0689b4;
+  text-shadow: 1px 1px #f5f5f5;
+  height: 65px;
+}
+
+#main-menu ul.menu li a span {
+  display: block;
+  margin-left: 8px;
+  padding: 25px 18px 10px 10px;
+}
+
+#main-menu ul.menu li a.active {
+  background: url(../images/style1/main-menu-corner-left.png) top left no-repeat;;
+}
+
+#main-menu ul.menu li a.active span {
+  display: block;
+  background: url(../images/style1/main-menu-corner-right.png) top right no-repeat;;
+}
+
+#main-menu ul.menu li a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Main Menu Drop Down */
+
+#main-menu ul.menu li ul {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  left: -999em;
+  z-index: 100;
+  background: #ffffff;
+  border-top: 5px solid #0489b4;
+  border-right: 1px solid #dddddd;
+}
+
+#main-menu ul.menu li:hover ul, #main-menu ul.menu li.sfHover ul {
+  left: auto;
+}
+
+#main-menu ul.menu li li a, #main-menu ul.menu li li a.active {
+  width: 160px;
+  padding: 0 20px;
+  margin: 0;
+  color: #222222;
+  font-size: 1.0em;
+  border: 0;
+  background: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#main-menu ul.menu li li a.active span, #main-menu ul.menu li li a span {
+  padding: 0;
+  margin: 0;
+  background: 0;
+}
+
+#main-menu ul.menu li li a:hover, #main-menu ul.menu li li a.active:hover {
+  background: #f9f9f9;
+  text-shadow: 1px 1px #ffffff;
+}
+
+#main-menu ul.menu li ul ul {
+  margin: -40px 0 0 200px;
+}
+
+#main-menu ul.menu li:hover ul ul, #main-menu ul.menu li.sfHover ul ul, #main-menu ul.menu li:hover ul ul ul, #main-menu ul.menu li.sfHover ul ul ul, #main-menu ul.menu li:hover ul ul ul ul, #main-menu ul.menu li.sfHover ul ul ul ul {
+  left: -999em;
+}
+
+#main-menu ul.menu li li:hover ul, #main-menu ul.menu li li.sfHover ul, #main-menu ul.menu li li li:hover ul, #main-menu ul.menu li li li.sfHover ul, #main-menu ul.menu li li li li:hover ul, #main-menu ul.menu li li li li.sfHover ul {
+  left:auto;
+}
+
+#main-menu ul.menu li li.expanded, #main-menu ul.menu li li li.expanded  {
+  background: 0;
+}
+
+/* NAV MENU
+--------------------------------------------------------------------------*/
+
+/* CONTENT TOP & CONTENT BOTTOM
+--------------------------------------------------------------------------*/
+
+.region-content-top, region-content-bottom {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  background: #f9f9f9;
+  border: 1px solid #eeeeee;
+}
+
+/* NODES
+--------------------------------------------------------------------------*/
+
+.field-name-field-image img {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 8px solid #222222;
+}
+
+.links {
+  float: right;
+}
+
+.links ul li a {
+  display: block;
+  padding: 0 10px;
+  float: left;
+  line-height: 35px;
+  margin-left: 10px;
+  color: #ffffff;
+  background: #2b99bd url(../images/style1/link-bg.png) repeat-x;
+  border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-radius: 2px;
+}
+
+.links ul li a:hover {
+  background: #058ab5;
+  text-decoration: none;
+}
+
+
+h1.title {
+  padding-bottom: 10px;
+  font-size: 2.0em;
+  line-height: 1.0em;
+  font-weight: bold;
+}
+
+.node .submitted {
+  float: left;
+  padding: 20px;
+  width: 80px;
+  color: #ffffff;
+  background: #222222;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.date {
+  font-size: 2.5em;
+  line-height: 1.0em;
+}
+
+.taxonomy {
+  float: left;
+  font-size: 0.9em;
+}
+
+.taxonomy .field-item {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.node-content-wrapper {
+  margin-left: 140px;
+}
+
+/* Teasers */
+
+.node-teaser {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  color: #666666;
+}
+
+.node-teaser.last {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px solid #dddddd;
+}
+
+.node-teaser h2.title {
+  padding-bottom: 10px;
+  font-size: 2.0em;
+  line-height: 1.0em;
+}
+
+.node-teaser h2.title a {
+  color: #222222;
+  font-weight: bold;
+}
+
+.node-teaser h2.title a:hover {
+  color: #4ca6d4;
+  text-decoration: none;
+}
+
+/* COMMENTS
+--------------------------------------------------------------------------*/
+
+#comments {
+    margin-top: 0;
+}
+
+.comment {
+  padding: 20px 0;
+  font-style: italic;
+  font-size: 0.9em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comment  .user-picture {
+  float: left;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.comment  .user-picture img {
+  display: block;
+  border: 5px solid #222222;
+}
+
+.comment .comment-content {
+  margin-left: 140px;
+}
+
+.comment  .submitted {
+  font-weight: bold;
+  color: #666666;
+}
+
+.comment .links {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-style:normal;
+}
+
+.indented {
+  margin-left: 0;
+  padding: 0 20px;
+  background: #f9f9f9;
+}
+
+#comments h2.title {
+  padding: 20px 0 0 0;
+}
+
+/* BREADCRUMBS
+--------------------------------------------------------------------------*/
+
+/* SEARCH FORM
+--------------------------------------------------------------------------*/
+
+/* SOCIAL
+--------------------------------------------------------------------------*/
+
+#social ul {
+  clear: right;
+  float: left;
+  padding: 3px 0 0 0;
+  margin: 0;
+}
+
+.social-links li {
+  float: right;
+  list-style: none;
+}
+
+.social-links li a {
+  display: inline-block;
+  padding-left: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.facebook {
+  background: url(../images/facebook.png) no-repeat;
+}
+
+.rss {
+  background: url(../images/feed-icon.png) no-repeat;
+}
+
+.twitter {
+  background: url(../images/twitter.png) no-repeat;
+}
+
+/* MISC
+--------------------------------------------------------------------------*/
+
+.item-list ul li span {
+  display: inline;
+  font-size: 1.0em;
+  padding: 0 0;
+}
+
+.you-are-here {
+  display: none;
+}
+
+.profile .user-picture {
+  float: none;
+  margin: 0 1em 1em 0;
+}
+
+.profile .user-picture img {
+  display: block;
+  border: 5px solid #222222;
+}
+
+ul.primary {
+    border-bottom: 0 solid #DDDDDD;
+    border-collapse: collapse;
+    height: auto;
+    line-height: 1em;
+    list-style: none outside none;
+    margin: 20px 0;
+    padding: 0 0 0 0;
+    white-space: nowrap;
+}
+
+.breadcrumb {
+    font-size: 1.0em;
+    padding-bottom: 0;
+	color: #999999;
+}
+
+.breadcrumb a {
+  color: #222222;
+}
+
+.mnav {
+  margin: 20px auto;
+}
+.item-list-our-work  ul li.ourworkgal {
+  float: left;
+  width: 300px;
+  margin: 6px;
+}
+.item-list-our-work  ul li.ourworkgal  {
+  text-align:center;
+  box-shadow: 0px 0px 5px #888888;
+  background: #fff;
+}
+.ourworkgal .views-field-title-1 .field-content {
+  font-family: 'Oswald',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0px;
+  display: block;
+}
+.ourworkgal .views-field-field-longblurb-1 .field-content  {
+  font-family: 'Ubuntu',Lucida Sans,Sans-Serif;
+  font-size: 12px;
+  padding: 0px 10px 10px 10px;
+  display: block;
+  line-height: 17px;
+}
+
+.view-id-portfolio .view-header h2 {
+font-family: 'Just Another Hand',serif;
+text-transform: uppercase;
+font-size: 45px;
+line-height: 1em;
+color: #222;
+margin-top: 35px;
+}
+.view-id-portfolio .view-header h2 .h2orange {
+font-family: 'Just Another Hand',serif;
+text-transform: uppercase;
+font-size:105px;
+color: #ff9204;
+}
+
+.widgets-style-horizontal {
+  padding:0px 3px 0px 3px;
+}
+
+.region-content-bottom{
+  margin-top:50px;
+}
+#block-widgets-s-socialmedia-profile-default {float:right;}
+/* FEATURE VIEWS
+--------------------------------------------------------------------------*/
+
+/* Icons
+--------------------------------------------------------------------------*/
+
+/* Width Specific */
+
+@media only screen and (max-width: 767px) {
+
+    /* Nodes */
+
+    .taxonomy {
+      padding-bottom: 10px;
+    }
+
+    .links {
+      clear: both;
+      float: none;
+    }
+
+    .links ul li {
+      display: block;
+      padding: 0;
+    }
+
+    .links ul li a {
+      display: block;
+      padding: 0 10px;
+      margin-bottom: 2px;
+      width: auto;
+      float: none;
+      line-height: 35px;
+      margin-left: 0px;
+      color: #ffffff;
+      background: #2b99bd url(../images/style1/link-bg.png) repeat-x;
+      border-right: 0px solid #666666;
+      border-bottom: 0px solid #666666;
+      text-transform: uppercase;
+      font-weight: normal;
+      border-radius: 2px;
+    }
+
+    .node .submitted {
+      float: none;
+      margin-bottom: 20px;
+      padding: 20px;
+      width: auto;
+      color: #ffffff;
+      background: #222222;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .node-content-wrapper {
+      margin-left: 0px;
+    }
+
+    .node-teaser.last {
+      padding-bottom: 0px;
+      margin-bottom: 20px;
+      border-bottom: 0px solid #dddddd;
+    }
+
+    /* Slideshow */
+
+    .view-slideshow .views-field-field-slideshow-image img {
+      width: 300px;
+      height: auto;
+    }
+
+
+    .view-slideshow .views-field-field-slideshow-image, .view-slideshow .views-field-title, .view-slideshow .views-field-body, .view-slideshow .views-field-view-node {
+      float: none;
+      margin-right: 0px;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .view-slideshow .views-field-title a {
+      width: 300px;
+      font-size: 1.2em;
+    }
+
+    .views-slideshow-controls-text-previous {
+      top: 90%;
+      left: -15px;
+    }
+
+    .views-slideshow-controls-text-next {
+      top: 90%;
+      right: -15px;
+    }
+    .header-wrapper-inner {
+      background: rgba(0,0,0,0.6);
+      border-radius: 0px 0px 20px 20px;
+    }
+    .site-logo{
+      float: left;
+      background:none;
+    }
+    .not-front    .site-logo{
+      float: none;
+      margin:0 auto;
+      background:none;
+      width:48%;
+    }
+    .region-logo  {
+      float:left;
+      background:none;
+    }
+    .region-logo img {
+      width:50px;
+
+    }
+    .not-front .region-logo {
+          background: none repeat scroll 0 0 transparent;
+    float: none;
+    height: 40px;
+    margin: 0 auto;
+    width: 18%;
+    }
+    #block-widgets-s-socialmedia-profile-default {
+      margin:0 auto;
+      float:none;
+    }
+}
+
+#admin-menu {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .view-slideshow .views-field-title a {
+      width: 480px;
+      font-size: 1.2em;
+    }
+    .site-logo{
+    background: none;
+    float: left;
+    }
+    .region-logo  {
+      float:right;
+      background:none;
+    }
+    .region-logo img {
+      width:50px;
+
+    }
+}
